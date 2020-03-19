@@ -1,0 +1,17 @@
+# # REDUX COM HOOKS
+
+Terminal:
+yarn add redux react-redux@next
+
+function App() {
+  return (
+    <Provider >
+      <div className="App">
+      </div>
+    </Provider>
+  );
+}
+
+Todos os componente que estiverem dentro do provider terão acesso as informações do store.
+
+Obs: O que irá mudar será a forma de consumir as informações e disparar as actions
